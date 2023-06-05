@@ -7,6 +7,7 @@ let connect = async function () {
     }
 
     const pool = new Pool({
+      //protocolo://usuario:senha@localdobanco/nomedobanco
       connectionString: 'postgres://postgres:postgres@localhost/fortnite'
     });
 
